@@ -3,7 +3,7 @@ package com.login;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class DataConnect {
+public final class DataConnect {
 
     public static String hostName = "localhost";
     public static String portNumber = "3306";
